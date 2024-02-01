@@ -16,7 +16,7 @@ This project focuses on developing a gesture recognition system to identify idea
 
 - **MPU (Motion Processing Unit)**: The MPU is employed to capture and process motion-related data, aiding in the identification of specific hand gestures.
 
-## Age Impulse
+## Edge Impulse
 
 The heart of our gesture recognition lies in the Age Impulse module. We leverage this module to train data, allowing it to generate a library that can be seamlessly integrated into our Arduino environment. This library becomes the backbone for recognizing and interpreting hand gestures.
 
@@ -24,8 +24,8 @@ The heart of our gesture recognition lies in the Age Impulse module. We leverage
 
 To use the generated library in your Arduino project, follow these steps:
 
-1. **Train Data with Age Impulse:**
-   - Use the Age Impulse module to train the system with various hand gestures.
+1. **Train Data with Edge Impulse:**
+   - Use the Edge Impulse module to train the system with various hand gestures.
    - This training process will result in the creation of a library specific to the gestures learned.
 
 2. **Integrate Library into Arduino:**
@@ -46,7 +46,7 @@ To get started with this project, follow the steps outlined in the documentation
 
 2. Set up the hardware components (ESP32 and MPU) as per the provided schematics.
 
-3. Train the system using the Age Impulse module.
+3. Train the system using the Edge Impulse module.
 
 4. Integrate the generated library into your Arduino project.
 
@@ -54,8 +54,3 @@ To get started with this project, follow the steps outlined in the documentation
 
 6. Monitor the output on the Arduino console to observe the recognized hand gestures.
 
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per your requirements.
