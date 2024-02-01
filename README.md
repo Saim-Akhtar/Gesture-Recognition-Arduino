@@ -25,7 +25,7 @@ The heart of our gesture recognition lies in the Age Impulse module. We leverage
 To use the generated library in your Arduino project, follow these steps:
 
 1. **Train Data with Edge Impulse:**
-   - Use the Edge Impulse module to train the system with various hand gestures.
+   - Use the Edge Impulse module to train the system with idle and vertical gestures.
    - This training process will result in the creation of a library specific to the gestures learned.
 
 2. **Integrate Library into Arduino:**
@@ -52,5 +52,5 @@ To get started with this project, follow the steps outlined in the documentation
 
 5. Upload the Arduino code to your ESP32.
 
-6. Monitor the output on the Arduino console to observe the recognized hand gestures.
+6. Monitor the output on the Arduino console to observe the recognized gestures.
 
